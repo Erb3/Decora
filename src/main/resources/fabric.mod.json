@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "decora",
+  "version": "${version}",
+  "name": "Decora",
+  "description": "A decoration mod for Minecraft",
+  "authors": [
+    "Erb3",
+    "Sammy"
+  ],
+  "contact": {
+    "website": "https://github.com/Erb3/Decora",
+    "repo": "https://github.com/Erb3/Decora"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/decora/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.erb3.mod.decora.Decora"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
