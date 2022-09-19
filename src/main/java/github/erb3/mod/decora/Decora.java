@@ -1,5 +1,6 @@
 package github.erb3.mod.decora;
 
+import github.erb3.mod.decora.block.BlockManager;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,5 +11,6 @@ public class Decora implements ModInitializer {
     @Override
     public void onInitialize() {
         LOGGER.info("Decora initializing.");
+        BlockManager.registerBlocks();
     }
 }
